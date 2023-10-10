@@ -13,9 +13,9 @@ class node
 };
 
 void newFunction(){
-    int a = 10;
-    int b = 20;
-    int c = a+b;
+    int alpha1 = 10;
+    int alpha2 = 20;
+    int c = alpha1+alpha2;
     cout << "c =" << c <<endl;
     return;
 }
@@ -30,12 +30,12 @@ void InsertAtTail(node* &head, int val)
         head =nn;
         return; 
     }
-    node* temp = head;
-    while(temp->next!= NULL)
+    node* temp1 = head;
+    while(temp1->next!= NULL)
     {
-        temp =temp->next;
+        temp1 =temp1->next;
     }
-    temp->next = nn;
+    temp1->next = nn;
 }
 void InsertAtHead(node* &head,int val)
 {
