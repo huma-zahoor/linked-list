@@ -11,6 +11,16 @@ class node
         next = NULL;
     }
 };
+
+void newFunction(){
+    int a = 10;
+    int b = 20;
+    int c = a+b;
+    cout << "c =" << c <<endl;
+    return;
+}
+
+
 void InsertAtTail(node* &head, int val)
 {
     node* nn = new node(val);
