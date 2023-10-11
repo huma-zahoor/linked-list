@@ -167,7 +167,7 @@ int main()
     cout << "3. Insert at any position" << endl;
     cout << "4. Delete from Head" << endl;
     cout << "5. Delete from Tail" << endl;
-    cout << "6. Delete from any position" << endl;
+    cout << "6. Deletion by name" << endl;
     cout << "7. Show Linked List" << endl;
     cout << "8. EXIT" <<endl; 
     cout << "Choose number from the above menu"<< endl;
